@@ -28,6 +28,7 @@ body {
 	justify-content: space-around;
 	/* background-color: rgb(142, 125, 125); */
 	height: 100%;
+	width: 50%;
 	padding: 0 50px;
 }
 
@@ -95,9 +96,16 @@ body {
 	align-items: center;
 	justify-content: center;
 	color: #fff;
+	width: 50%;
 	height: 100%;
+	padding: 0 100px;
+	position: relative;
 }
 
 #gameBoard {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	width: 600px;
 }
