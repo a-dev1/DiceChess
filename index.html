@@ -1,33 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet"
-      href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css"
-      integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU"
-      crossorigin="anonymous">
-</head>
-<body>
-  <h1>DiceChess</h1>
-  <div id="myBoard" style="width: 400px"></div>
-  <label>Status:</label>
-  <div id="status"></div>
-  <label>FEN:</label>
-  <div id="fen"></div>
-  <label>PGN:</label>
-  <div id="pgn"></div>
+<!doctype html>
+<html>
+  <head>
+    <title>Chess</title>
+    <link rel="stylesheet" href="css/chessboard-0.3.0.min.css">
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id='gameBoard'></div>
+    
+    <!-- <input id="peerid" placeholder="My ID"> <button onclick="join()">Create ID</button><br>
 
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+    <input type="text" id="fpeerid" placeholder="Peer ID"> <button id="connect" onclick="connect()">Connect</button>
+    <br> -->
 
-  <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"
-        integrity="sha384-8Vi8VHwn3vjQ9eUHUxex3JSN/NFqUg3QbPyX8kWyb93+8AC/pPWTzj+nHtbC5bxD"
-        crossorigin="anonymous"></script>
-  <script src="bundle.js"></script>
-  <!-- <script src="script.js"></script> -->
-</body>
+
+    <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+
+    <script src="js/chess.min.js"></script> 
+    <script src="js/chessboard-0.3.0.min.js"></script> 
+    <script src="js/jquery-1.11.1.js"></script> 
+    <script src="js/main.js"></script>
+  </body>
 </html>
