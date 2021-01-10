@@ -4,7 +4,8 @@
 }
 
 .board-b72b1 {
-  border: 2px solid #404040;
+  box-shadow: 2px 5px 12px rgb(0, 0, 0);
+  border: 10px solid #0a0a0a;
   -moz-box-sizing: content-box;
   box-sizing: content-box
 }
