@@ -1,5 +1,13 @@
 var board;
 var game;
+var flip_button = document.querySelector(".roll-dice-btn");     
+
+const rollTheDice = () => {
+    fetch('http://9dc39e839d3c.ngrok.io/')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(err => console.log(err))
+}
 
 // //Chess Logic
 var $status = $('#status');
