@@ -1,2 +1,2 @@
-# DiceChess
-https://a-dev1.github.io/DiceChess/
+# A Raspberry Pi based game of Dice Chess
+https://rolly-rolly-chess.co
