@@ -3,7 +3,7 @@ var game;
 var flip_button = document.querySelector(".roll-dice-btn");     
 
 const rollTheDice = () => {
-    fetch('http://b860a8d9d071.eu.ngrok.io/roll')
+    fetch('https://b860a8d9d071.eu.ngrok.io/roll')
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(err => console.log(err))
